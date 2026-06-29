@@ -1,0 +1,250 @@
+```markdown
+# 🤖 FAQ Chatbot using NLP
+
+A simple and intelligent FAQ Chatbot built using **Python, Flask, NLTK, Scikit-learn, HTML, CSS, and JavaScript**. The chatbot understands user questions, preprocesses text using NLP techniques, and finds the most relevant answer using **TF-IDF Vectorization** and **Cosine Similarity**.
+
+---
+
+## 📌 Features
+
+- 🤖 Intelligent FAQ Chatbot
+- 🧠 NLP Text Preprocessing
+- 🔍 TF-IDF Vectorization
+- 📊 Cosine Similarity Matching
+- 🌐 Flask Web Application
+- 💬 Interactive Chat Interface
+- 📱 Responsive Design
+- ⚡ Fast Response Time
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Flask
+- HTML5
+- CSS3
+- JavaScript
+- Pandas
+- NLTK
+- Scikit-learn
+
+---
+
+## 📂 Project Structure
+
+```
+
+FAQ_Chatbot/
+│
+├── app.py
+├── chatbot.py
+├── preprocess.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── faq.csv
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── style.css
+│   └── script.js
+│
+├── screenshots/
+│   ├── home.png
+│   └── chat.png
+│
+└── nltk_data/
+
+````
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/FAQ_Chatbot.git
+````
+
+### 2. Open Project
+
+```bash
+cd FAQ_Chatbot
+```
+
+### 3. Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate Environment
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+### 5. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Download NLTK Data
+
+```python
+import nltk
+nltk.download("punkt")
+nltk.download("stopwords")
+nltk.download("wordnet")
+```
+
+### 7. Run the Project
+
+```bash
+python app.py
+```
+
+Open your browser:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 🧠 NLP Workflow
+
+```
+User Question
+      │
+      ▼
+Text Preprocessing
+      │
+      ▼
+Tokenization
+      │
+      ▼
+Stopword Removal
+      │
+      ▼
+Lemmatization
+      │
+      ▼
+TF-IDF Vectorization
+      │
+      ▼
+Cosine Similarity
+      │
+      ▼
+Best Matching FAQ
+      │
+      ▼
+Answer Display
+```
+
+---
+
+## 📷 Screenshots
+
+### Home Page
+
+```
+screenshots/home.png
+```
+
+### Chat Result
+
+```
+screenshots/chat.png
+```
+
+---
+
+## 💬 Example
+
+**User**
+
+```
+What is Python?
+```
+
+**Bot**
+
+```
+Python is a popular high-level programming language.
+```
+
+---
+
+**User**
+
+```
+What is Flask?
+```
+
+**Bot**
+
+```
+Flask is a lightweight web framework written in Python.
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Voice Input
+* Voice Output
+* Multiple Languages
+* Database Support
+* AI Intent Classification
+* User Authentication
+* Dark Mode
+* Chat History
+* OpenAI API Integration
+
+---
+
+## 📈 Skills Demonstrated
+
+* Python Programming
+* Natural Language Processing (NLP)
+* Machine Learning
+* TF-IDF Vectorization
+* Cosine Similarity
+* Flask Web Development
+* Frontend Development
+* REST API
+* Data Processing
+
+---
+
+## 👩‍💻 Author
+
+**Pratiksha Tomar**
+
+B.Tech CSE (AI & ML)
+
+Python Developer | Machine Learning Enthusiast | Web Developer
+
+---
+
+## ⭐ If you like this project
+
+Please give this repository a ⭐ on GitHub.
+
+```
+```

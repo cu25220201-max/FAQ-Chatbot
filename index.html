@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Chatbot</title>
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="layout">
+
+    
+    <div class="sidebar">
+        <h3>💬 Chat History</h3>
+        <div id="historyList"></div>
+    </div>
+
+    
+    <div class="container">
+
+        
+        <div class="chat-header">
+
+            <div class="header-top">
+
+                <div class="header-title">
+                    <h1>🤖 FAQ Chatbot</h1>
+                    <p>Ask any question from the FAQ database</p>
+                </div>
+
+                <button id="themeBtn">🌙</button>
+
+            </div>
+
+        </div>
+
+        
+        <div id="chat-box" class="chat-box">
+
+            <div class="bot-message">
+                <strong>Bot:</strong><br>
+                Hello 👋 Welcome to FAQ Chatbot.<br>
+                Ask me anything related to AI, Python, HTML, CSS, GitHub, Flask etc.
+            </div>
+
+        </div>
+
+        
+        <div class="input-area">
+
+            <input 
+                type="text"
+                id="question"
+                placeholder="Type your question..."
+                autocomplete="off"
+            >
+
+            <button id="send-btn">Send</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
