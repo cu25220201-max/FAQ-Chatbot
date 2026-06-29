@@ -1,9 +1,7 @@
 ```markdown
 # 🤖 FAQ Chatbot using NLP
 
-A simple and intelligent FAQ Chatbot built using **Python, Flask, NLTK, Scikit-learn, HTML, CSS, and JavaScript**. The chatbot understands user questions, preprocesses text using NLP techniques, and finds the most relevant answer using **TF-IDF Vectorization** and **Cosine Similarity**.
-
----
+A simple and intelligent FAQ Chatbot built using **Python, Flask, NLTK, Scikit-learn, HTML, CSS, and JavaScript**. The chatbot understands user questions, preprocesses text using NLP techniques, and finds the most relevant answer using **TF-IDF Vectorization** and **Cosine Similarity**
 
 ## 📌 Features
 
@@ -16,8 +14,6 @@ A simple and intelligent FAQ Chatbot built using **Python, Flask, NLTK, Scikit-l
 - 📱 Responsive Design
 - ⚡ Fast Response Time
 
----
-
 ## 🛠️ Technologies Used
 
 - Python
@@ -29,12 +25,9 @@ A simple and intelligent FAQ Chatbot built using **Python, Flask, NLTK, Scikit-l
 - NLTK
 - Scikit-learn
 
----
-
 ## 📂 Project Structure
 
-```
-
+```text
 FAQ_Chatbot/
 │
 ├── app.py
@@ -60,8 +53,6 @@ FAQ_Chatbot/
 └── nltk_data/
 
 ````
-
----
 
 ## ⚙️ Installation
 
@@ -124,8 +115,6 @@ Open your browser:
 http://127.0.0.1:5000
 ```
 
----
-
 ## 🧠 NLP Workflow
 
 ```
@@ -156,53 +145,16 @@ Best Matching FAQ
 Answer Display
 ```
 
----
-
 ## 📷 Screenshots
 
-### Home Page
+<img width="896" height="468" alt="image" src="https://github.com/user-attachments/assets/e4402cb8-7754-4f81-9907-9e49faf08eda" />
 
-```
-screenshots/home.png
-```
 
-### Chat Result
+<img width="960" height="481" alt="image" src="https://github.com/user-attachments/assets/1b5c5890-b8f8-4467-8d0a-03db315be5c0" />
 
-```
-screenshots/chat.png
-```
+<img width="958" height="448" alt="image" src="https://github.com/user-attachments/assets/efdd600c-0b98-4069-b080-13b884a728bd" />
 
----
 
-## 💬 Example
-
-**User**
-
-```
-What is Python?
-```
-
-**Bot**
-
-```
-Python is a popular high-level programming language.
-```
-
----
-
-**User**
-
-```
-What is Flask?
-```
-
-**Bot**
-
-```
-Flask is a lightweight web framework written in Python.
-```
-
----
 
 ## 🚀 Future Improvements
 
@@ -215,8 +167,6 @@ Flask is a lightweight web framework written in Python.
 * Dark Mode
 * Chat History
 * OpenAI API Integration
-
----
 
 ## 📈 Skills Demonstrated
 
@@ -240,11 +190,3 @@ B.Tech CSE (AI & ML)
 
 Python Developer | Machine Learning Enthusiast | Web Developer
 
----
-
-## ⭐ If you like this project
-
-Please give this repository a ⭐ on GitHub.
-
-```
-```
