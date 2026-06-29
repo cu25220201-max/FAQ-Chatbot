@@ -1,7 +1,8 @@
-```markdown
+
 # 🤖 FAQ Chatbot using NLP
 
-A simple and intelligent FAQ Chatbot built using **Python, Flask, NLTK, Scikit-learn, HTML, CSS, and JavaScript**. The chatbot understands user questions, preprocesses text using NLP techniques, and finds the most relevant answer using **TF-IDF Vectorization** and **Cosine Similarity**
+An AI-powered FAQ Chatbot developed as part of the CodeAlpha Python Programming Internship. This project uses Python, Flask, Machine Learning, HTML, CSS, and JavaScript to answer frequently asked questions from a trained dataset through a modern and responsive chat interface.
+
 
 ## 📌 Features
 
@@ -190,3 +191,4 @@ B.Tech CSE (AI & ML)
 
 Python Developer | Machine Learning Enthusiast | Web Developer
 
+## CodeAlpha Internship Project 🚀
